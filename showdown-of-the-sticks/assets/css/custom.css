@@ -1,0 +1,60 @@
+body {
+  background-color: #1e1e2f;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #0e3ecf, #af8e20);
+}
+
+.page-header h1 {
+  color: #d6d6d6 !important;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  color: #0e5ecf !important;
+}
+
+.site-footer-credits {
+  display: none;
+}
+
+p {
+  color: #b5c2d2;
+}
+
+.sidebar {
+  background: linear-gradient(135deg, #162c6d, #0e3ecf);
+  padding: 10px 20px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  color: white;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.sidebar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-left: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
