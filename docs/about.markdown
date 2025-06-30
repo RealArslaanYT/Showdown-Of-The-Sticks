@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Showdown of the Sticks
 permalink: /about/
 ---
 
