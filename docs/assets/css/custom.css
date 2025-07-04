@@ -1,5 +1,6 @@
 body {
   background-color: #1e1e2f;
+  color: #b5c2d2;
 }
 
 .page-header {
@@ -16,10 +17,6 @@ h1 {
 
 .site-footer-credits {
   display: none;
-}
-
-p {
-  color: #b5c2d2;
 }
 
 .sidebar {

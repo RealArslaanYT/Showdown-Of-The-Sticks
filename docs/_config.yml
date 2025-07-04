@@ -22,12 +22,9 @@ title: Showdown of the Sticks
 email: xminecrafterfun+inquiries@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A fast-paced, pixel-art style fighting game. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  RealArslaanYT
-
 baseurl: "/Showdown-Of-The-Sticks"
 url: "https://realarslaanyt.github.io"
+github_username:  RealArslaanYT
 
 
 # Build settings
@@ -35,6 +32,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
+- jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

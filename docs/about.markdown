@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Showdown of the Sticks
+title: Showdown of the Sticks | About
+description: Showdown of the Sticks is a fast-paced, stick figure fighting game.
 permalink: /about/
 ---
+{% seo %}
 
 # About
 
