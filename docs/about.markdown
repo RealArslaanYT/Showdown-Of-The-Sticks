@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Showdown of the Sticks | About
-description: Showdown of the Sticks is a fast-paced, stick figure fighting game.
+description: Showdown of the Sticks is a fast-paced, pixel-art style stick figure fighting game.
 permalink: /about/
+minimal_header: true
 ---
 {% seo %}
 
-# About
+# Showdown of the Sticks | About
 
 Showdown of the Sticks is a fast-paced, pixel-art fighting game inspired by Smash Bros, Encounters, and Alan Becker’s upcoming game Animation VERSUS. Players pick from four distinct stick figure characters, each with unique themes, weapons, and abilities:
 

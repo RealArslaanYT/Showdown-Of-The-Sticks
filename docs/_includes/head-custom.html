@@ -1,10 +1,31 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script>
+  const baseurl = "{{ site.baseurl }}";
+</script>
+<script src="{{ 'assets/js/global.js' | relative_url }}"></script>
+<meta http-equiv="Content-Language" content="en" />
 <meta name="google-site-verification" content="4zw3RHEbovt7dEt7h5aW-h1DNg6kolAYIRna2oxr_r8" />
 
-<aside class="sidebar">
-  <div class="site-name">Showdown of the Sticks</div>
-  <ul>
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
-    <li><a href="{{ site.baseurl }}/about">About</a></li>
-  </ul>
-</aside>
+{% if page.hide_header %}
+<style>
+  .page-header { display: none !important; }
+</style>
+{% endif %}
+
+{% if page.minimal_header %}
+<style>
+  .page-header {
+    min-height: 13vh !important;
+    padding: 10px 20px !important;
+  }
+  .page-header h1 {
+    margin: 0;
+    font-size: 2rem !important;
+  }
+
+  .page-header h2 {
+    margin: 0;
+    font-size: 1rem !important;
+  }
+</style>
+{% endif %}

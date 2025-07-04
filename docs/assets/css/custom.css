@@ -7,12 +7,12 @@ body {
   background: linear-gradient(135deg, #0e3ecf, #af8e20);
 }
 
-.page-header h1 {
+.page-header h1, .page-header h2, h3, h4, h5, h6 {
   color: #d6d6d6 !important;
 }
 
-h1 {
-  color: #0e5ecf !important;
+h1, h2 {
+  color: #106ced !important;
 }
 
 .site-footer-credits {
